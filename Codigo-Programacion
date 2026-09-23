@@ -1,0 +1,10 @@
+def multiTable(n: Int): String = {
+var multiplo = 1
+var table: String=("")
+while multiplo<10 do
+  table+=(s"$multiplo * $n = " + multiplo * n+"\n")
+  multiplo=multiplo+1
+ table+=(s"$multiplo * $n = " + multiplo * n)
+return(table)
+}
+
