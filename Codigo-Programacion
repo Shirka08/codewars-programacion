@@ -40,5 +40,21 @@ def switch_it_up(number):
                 }
      return numbers[number]
 
+## Regexp Basics - is it a digit?
+
+def is_digit(string):
+   return len(string) == 1 and string.isdigit()
+
+
+
+## Classy Classes:
+class Person:
+    def __init__ (self, name, age): 
+        self.age = age
+        self.name = name
+    
+    @property 
+    def info(self):
+        return self.name + "s age is " + str(self.age)
 
 
