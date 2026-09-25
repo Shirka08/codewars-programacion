@@ -2,9 +2,9 @@
 Iniciacion en programacion. Sin comentarios
  
  
- ##***Creado por Shirka***
+ ## ***Creado por Shirka***
  
  
  
- ##-Estudiante de IES Teis de Vigo, Galicia
+ ## -Estudiante de IES Teis de Vigo, Galicia
  
