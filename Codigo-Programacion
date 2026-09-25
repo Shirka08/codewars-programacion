@@ -1,4 +1,4 @@
-## Multiplication table for number
+## Multiplication table for number:
 
 def multiTable(n: Int): String = {
 var multiplo = 1
@@ -10,8 +10,35 @@ while multiplo<10 do
 return(table)
 }
 
-## Multiply
+
+
+## Multiply:
 def multiply(a,b):
     return a * b
 
-Grasshopper - Combine strings
+
+
+## Grasshopper - Combine strings:
+def combine_names (Daby, Back): 
+                  return f"{Daby} {Back}" 
+
+
+## Switch it Up!:
+
+def switch_it_up(number):
+    numbers = {
+        0: "Zero" ,
+        1: "One" ,
+        2: "Two" ,
+        3: "Three" ,
+        4: "Four" ,
+        5: "Five" ,
+        6: "Six" ,
+        7: "Seven" ,
+        8: "Eight" ,
+        9: "Nine" 
+                }
+     return numbers[number]
+
+
+
