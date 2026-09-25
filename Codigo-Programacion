@@ -1,3 +1,5 @@
+## Multiplication table for number
+
 def multiTable(n: Int): String = {
 var multiplo = 1
 var table: String=("")
@@ -8,3 +10,8 @@ while multiplo<10 do
 return(table)
 }
 
+## Multiply
+def multiply(a,b):
+    return a * b
+
+Grasshopper - Combine strings
