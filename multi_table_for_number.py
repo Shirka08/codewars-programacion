@@ -1,10 +1,10 @@
-def multi_table(n):
-    table = ""
+def multi_table(multiplicando):
+    tabla_de_multiplicar = ""
 
-    for variable in range(1, 11):
-        if variable == 10:
-            table += f"{variable} * {n} = {variable * n}"
+    for multiplicador in range(1, 11):
+        if multiplicador == 10:
+            tabla_de_multiplicar += f"{multiplicador} * {multiplicando} = {multiplicador * multiplicando}"
         else:
-            table += f"{variable} * {n} = {variable * n}\n"
+            tabla_de_multiplicar += f"{multiplicador} * {multiplicando} = {multiplicador * multiplicando}\n"
 
-    return table
+    return tabla_de_multiplicar
