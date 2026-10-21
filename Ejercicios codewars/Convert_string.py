@@ -4,4 +4,6 @@ def to_camel_case(text):
     while "-" in text:
         posicion = text.find("-")
         letra = text[posicion + 1].upper()
-        text = text.replace(text[posicion:posicion + 2], letra, 1)
+        text = text.replace(text[posicion:posicion + 2], letra, 1)   #No entiendo esra linea
+        
+        return text

@@ -12,3 +12,7 @@ def hilberts_hotel(rooms, people, buses):
 
     elif buses == float("inf"):
         return [habitacion * (people + 1) for habitacion in rooms]
+
+
+
+    #Ni idea de que hice
